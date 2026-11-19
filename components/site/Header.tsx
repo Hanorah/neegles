@@ -62,17 +62,14 @@ export default function Header() {
     const links = el.querySelectorAll(".menu-link .menu-txt");
     const bits = el.querySelectorAll(".menu-fade");
     tl.current?.kill();
-    document.documentElement.classList.toggle("menu-open", open);
     if (open) {
-      window.__lenis?.stop();
       tl.current = gsap
-        .timeline()
+        .timeline({ delay: 0.02 })
         .set(el, { visibility: "visible", pointerEvents: "auto" })
         .fromTo(cols, { scaleY: 0, transformOrigin: "50% 0%" }, { scaleY: 1, duration: 0.75, ease: "expo.inOut", stagger: { each: 0.05, from: "start" } })
         .fromTo(links, { yPercent: 110 }, { yPercent: 0, duration: 0.9, ease: "expo.out", stagger: 0.05 }, 0.45)
         .fromTo(bits, { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.7, ease: "expo.out", stagger: 0.04 }, 0.6);
     } else {
-      window.__lenis?.start();
       tl.current = gsap
         .timeline()
         .to(links, { yPercent: -110, duration: 0.45, ease: "power3.in", stagger: 0.025 })
@@ -81,8 +78,20 @@ export default function Header() {
         .set(el, { visibility: "hidden", pointerEvents: "none" });
     }
     const esc = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
+    const block = (e: Event) => {
+      e.preventDefault();
+      e.stopPropagation();
+    };
     window.addEventListener("keydown", esc);
-    return () => window.removeEventListener("keydown", esc);
+    if (open) {
+      el.addEventListener("wheel", block, { passive: false });
+      el.addEventListener("touchmove", block, { passive: false });
+    }
+    return () => {
+      window.removeEventListener("keydown", esc);
+      el.removeEventListener("wheel", block);
+      el.removeEventListener("touchmove", block);
+    };
   }, [open]);
   const [peek, setPeek] = useState(0);
 

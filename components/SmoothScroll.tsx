@@ -24,7 +24,8 @@ export default function SmoothScroll() {
     lenis.on("scroll", ScrollTrigger.update);
     const tick = (time: number) => lenis.raf(time * 1000);
     gsap.ticker.add(tick);
-    gsap.ticker.lagSmoothing(0);
+    // if a frame is ever slow, carry on from where we were instead of jumping to the end of every animation
+    gsap.ticker.lagSmoothing(250, 33);
 
     // In-page anchor links scroll through Lenis.
     const onClick = (e: MouseEvent) => {
