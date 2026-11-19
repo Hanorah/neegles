@@ -6,7 +6,18 @@ import { gsap } from "gsap";
 import TLink from "./TLink";
 import Logo from "./Logo";
 import Image from "next/image";
-import { company, pages, industries } from "@/lib/content";
+import { company, industries } from "@/lib/content";
+
+const MENU = [
+  { label: "Home", href: "/", img: "/renders/nmark.webp", note: "Start here" },
+  { label: "Work", href: "/work", img: "/renders/profix.webp", note: "Client work and Labs" },
+  { label: "Services", href: "/services", img: "/renders/footera.webp", note: "Five practices, one team" },
+  { label: "Industries", href: "/industries", img: "/industries/gen-construction.webp", note: "Logistics · Real estate · Professional services · Construction" },
+  { label: "Labs", href: "/labs", img: "/renders/prism.webp", note: "Experiments that ship" },
+  { label: "About", href: "/about", img: "/industries/gen-professional-services.webp", note: "Who we are" },
+  { label: "Careers", href: "/careers", img: "/renders/kike.webp", note: "Build with us" },
+  { label: "Contact", href: "/contact", img: "/industries/gen-real-estate.webp", note: "Tell us what you are building" },
+];
 
 
 /** Blend-mode header (reads on light and dark), full-screen typed menu. */
@@ -37,33 +48,48 @@ export default function Header() {
     };
   }, []);
 
+  // full-screen black menu: columns drop from the top to open, then pull back up to close
+  const tl = useRef<gsap.core.Timeline | null>(null);
+  const [shown, setShown] = useState(false);
+  useEffect(() => {
+    if (open) setShown(true);
+  }, [open]);
   useEffect(() => {
     const el = menu.current;
-    if (!el) return;
+    if (!el || !shown) return;
+    const cols = el.querySelectorAll(".menu-col");
+    const links = el.querySelectorAll(".menu-link .menu-txt");
+    const bits = el.querySelectorAll(".menu-fade");
+    tl.current?.kill();
     document.documentElement.classList.toggle("menu-open", open);
     if (open) {
       window.__lenis?.stop();
-      gsap.fromTo(el, { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" });
-      // the panel grows out of the Menu pill
-      gsap.fromTo(
-        el.querySelector(".menu-glass"),
-        { clipPath: "inset(0% 38% 94% 38% round 999px)", y: -6 },
-        { clipPath: "inset(0% 0% 0% 0% round 28px)", y: 0, duration: 0.85, ease: "expo.out" },
-      );
-      gsap.fromTo(el.querySelectorAll(".menu-link, .menu-ind, .menu-cta, .menu-foot"), { y: 22, opacity: 0, filter: "blur(6px)" }, { y: 0, opacity: 1, filter: "blur(0px)", duration: 0.7, ease: "expo.out", stagger: 0.035, delay: 0.15 });
+      tl.current = gsap
+        .timeline()
+        .set(el, { visibility: "visible" })
+        .fromTo(cols, { scaleY: 0, transformOrigin: "50% 0%" }, { scaleY: 1, duration: 0.75, ease: "expo.inOut", stagger: { each: 0.05, from: "start" } })
+        .fromTo(links, { yPercent: 110 }, { yPercent: 0, duration: 0.9, ease: "expo.out", stagger: 0.05 }, 0.45)
+        .fromTo(bits, { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.7, ease: "expo.out", stagger: 0.04 }, 0.6);
     } else {
       window.__lenis?.start();
+      tl.current = gsap
+        .timeline({ onComplete: () => setShown(false) })
+        .to(links, { yPercent: -110, duration: 0.45, ease: "power3.in", stagger: 0.025 })
+        .to(bits, { opacity: 0, duration: 0.3 }, 0)
+        .to(cols, { scaleY: 0, transformOrigin: "50% 0%", duration: 0.7, ease: "expo.inOut", stagger: { each: 0.05, from: "end" } }, 0.25)
+        .set(el, { visibility: "hidden" });
     }
     const esc = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
     window.addEventListener("keydown", esc);
     return () => window.removeEventListener("keydown", esc);
-  }, [open]);
+  }, [open, shown]);
+  const [peek, setPeek] = useState(0);
 
   const isOn = (href: string) => path === href || path.startsWith(href + "/");
 
   return (
     <>
-      <header className={`hd ${hidden && !open ? "is-hidden" : ""} ${dark && !open ? "is-dark" : ""}`}>
+      <header className={`hd ${hidden && !open ? "is-hidden" : ""} ${dark || open ? "is-dark" : ""}`}>
         <TLink href="/" className="hd-logo" aria-label="Neegles home" data-magnetic>
           <Logo className="hd-mark" />
         </TLink>
@@ -81,39 +107,66 @@ export default function Header() {
         </TLink>
       </header>
 
-      <div id="menu" ref={menu} className="menu" hidden={!open} role="dialog" aria-modal="true" aria-label="Menu" onClick={() => setOpen(false)}>
-        <div className="menu-glass" onClick={(e) => e.stopPropagation()}>
-          <ol className="menu-list">
-            {[{ label: "Home", href: "/" }, ...pages].map((p, i) => (
-              <li key={p.href}>
-                <TLink href={p.href} className={`menu-link ${isOn(p.href) && p.href !== "/" ? "is-on" : ""}`} onClick={() => setOpen(false)}>
-                  <span className="menu-n">0{i + 1}</span>
-                  {p.label}
-                </TLink>
-              </li>
-            ))}
-          </ol>
-          <div className="menu-inds">
-            <p className="label">Industries</p>
-            <div className="menu-inds-grid">
-              {industries.map((ind) => (
-                <TLink key={ind.id} href={`/industries/${ind.id}`} className="menu-ind" onClick={() => setOpen(false)}>
-                  <span className="menu-ind-img">
-                    <Image src={ind.image} alt="" fill sizes="120px" style={{ objectFit: "cover" }} />
-                  </span>
-                  <span>{ind.name}</span>
-                </TLink>
-              ))}
-            </div>
-          </div>
-          <TLink href="/contact" className="btn btn-light menu-cta" onClick={() => setOpen(false)}>
-            Start a project <span aria-hidden="true">↗</span>
-          </TLink>
-          <div className="menu-foot">
+      <div id="menu" ref={menu} className={`menu ${shown ? "is-shown" : ""}`} role="dialog" aria-modal="true" aria-label="Menu" aria-hidden={!open}>
+        <div className="menu-cols" aria-hidden="true">
+          {Array.from({ length: 8 }).map((_, k) => (
+            <i key={k} className="menu-col" />
+          ))}
+        </div>
+        <div className="menu-in">
+          <aside className="menu-side menu-fade">
+            <p className="label">Get in touch</p>
             <a href={`mailto:${company.email}`}>{company.email}</a>
             <a href={company.whatsapp} target="_blank" rel="noreferrer">
               WhatsApp ↗
             </a>
+            <p className="label">Follow</p>
+            {company.socials.map((sc) => (
+              <a key={sc.label} href={sc.href} target="_blank" rel="noreferrer">
+                {sc.label}
+              </a>
+            ))}
+          </aside>
+          <ol className="menu-list">
+            {MENU.map((p, i) => (
+              <li key={p.href}>
+                <TLink
+                  href={p.href}
+                  className={`menu-link ${isOn(p.href) && p.href !== "/" ? "is-on" : ""} ${peek === i ? "is-peek" : ""}`}
+                  onClick={() => setOpen(false)}
+                  onPointerEnter={() => setPeek(i)}
+                  onFocus={() => setPeek(i)}
+                  tabIndex={open ? 0 : -1}
+                >
+                  <span className="menu-n">0{i + 1}</span>
+                  <span className="menu-mask">
+                    <span className="menu-txt" data-text={p.label}>
+                      {p.label}
+                    </span>
+                  </span>
+                </TLink>
+              </li>
+            ))}
+          </ol>
+          <div className="menu-peek menu-fade" aria-hidden="true">
+            {MENU.map((p, i) => (
+              <span key={p.href} className={`menu-peek-img ${peek === i ? "is-on" : ""}`}>
+                <Image src={p.img} alt="" fill sizes="(max-width: 900px) 1px, 30vw" style={{ objectFit: "cover" }} />
+              </span>
+            ))}
+            <p className="menu-peek-cap label">{MENU[peek].note}</p>
+          </div>
+          <div className="menu-bottom menu-fade">
+            <div className="menu-inds">
+              {industries.map((ind) => (
+                <TLink key={ind.id} href={`/industries/${ind.id}`} onClick={() => setOpen(false)} tabIndex={open ? 0 : -1}>
+                  {ind.name}
+                </TLink>
+              ))}
+            </div>
+            <TLink href="/contact" className="btn btn-blue" onClick={() => setOpen(false)} tabIndex={open ? 0 : -1}>
+              Start a project <span aria-hidden="true">↗</span>
+            </TLink>
           </div>
         </div>
       </div>

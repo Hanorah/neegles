@@ -124,6 +124,11 @@ export type Project = {
   slateScreen: string;
   gallery: { src: string; alt: string; w: number; h: number }[];
   accent: string;
+  /** Published on the current neegles.com projects page. */
+  solution?: string;
+  outcome?: string;
+  url?: string;
+  kind?: string;
 };
 
 export const projects: Project[] = [
@@ -133,16 +138,23 @@ export const projects: Project[] = [
     industry: "Repair businesses",
     summary:
       "A web-based repair management platform that helps repair shops streamline job management, track repair progress and stay on top of payments, all in one place.",
-    challenge: "Repair businesses were losing time and money to manual record-keeping and unclear payment tracking.",
+    challenge:
+      "Repair businesses were struggling with manual record-keeping, leading to disorganised workflows and payment tracking issues. Without a central system it was hard to manage requests, track repairs and keep clear financial records.",
+    solution:
+      "A web-based repair management platform that streamlines the whole repair process: customer management, job tracking, inventory management and integrated payment processing in one workflow.",
+    outcome:
+      "A more organised workflow with fewer errors. Every transaction is logged and visible, so payment tracking is clear and disputes have nothing to stand on.",
     built: ["Customer management", "Job tracking", "Inventory management", "Integrated payment processing"],
     laptopScreen: "/work/profix-features.webp",
     slateScreen: "/work/profix-dashboard.webp",
     gallery: [
       { src: "/work/profix-landing.webp", alt: "ProFix Desk landing page: Manage Repair, Grow Your Business.", w: 1902, h: 840 },
-      { src: "/work/profix-dashboard.webp", alt: "ProFix Desk dashboard with orders in progress and order management list.", w: 1059, h: 1704 },
-      { src: "/work/profix-features.webp", alt: "ProFix Desk features page showing the mobile job view.", w: 1200, h: 1764 },
+      { src: "/work/profix-desktop.webp", alt: "ProFix Desk dashboard with orders in progress and the order management list.", w: 1059, h: 1704 },
+      { src: "/work/profix-mobile.webp", alt: "ProFix Desk features page with the mobile job view.", w: 1200, h: 1764 },
+      { src: "/work/profix-app.webp", alt: "ProFix Desk mobile app home with order stats.", w: 864, h: 858 },
     ],
     accent: "#5fae3c",
+    url: "https://profixdesk.com/",
   },
   {
     id: "kike",
@@ -150,7 +162,12 @@ export const projects: Project[] = [
     industry: "African fashion & e-commerce",
     summary:
       "A marketplace for authentic African-inspired clothing, with a Restyle Market that gives pre-loved pieces a second life through thrifting.",
-    challenge: "Finding authentic African fashion online was harder than it should be.",
+    challenge:
+      "Finding authentic African fashion was hard for people who wanted to celebrate African culture through what they wear. There was no platform showcasing authentic African-inspired design alongside sustainable options.",
+    solution:
+      "A platform that is both a marketplace for African-inspired clothing and a Restyle Market for thrifting, connecting shoppers with authentic designers and a sustainable way to buy.",
+    outcome:
+      "Kiké gives people access to authentic, sustainable African fashion: unique designs that celebrate the culture, and an integrated thrifting market.",
     built: ["Fashion marketplace", "Product catalogue & pages", "Restyle Market for thrifting", "E-commerce checkout"],
     laptopScreen: "/work/kike-home.webp",
     slateScreen: "/work/kike-product.webp",
@@ -159,6 +176,88 @@ export const projects: Project[] = [
       { src: "/work/kike-product.webp", alt: "Kiké product page for a patterned suit.", w: 353, h: 568 },
     ],
     accent: "#c8a26b",
+    url: "https://kike.neegles-dev.name.ng/",
+  },
+  {
+    id: "oio",
+    name: "OiO",
+    industry: "Events marketplace",
+    summary: "Owanbe is Online: a two-sided marketplace connecting people planning Owanbe celebrations with verified vendors.",
+    challenge:
+      "Planning an Owanbe was stressful and slow. Clients struggled to find reliable vendors, compare prices and coordinate the logistics of a traditional Nigerian celebration.",
+    solution:
+      "A two-sided marketplace connecting hosts with verified vendors, closing the gaps caused by mismatched expectations, hidden pricing and slow communication.",
+    outcome: "Vendors are more visible and clients spend far less time searching, so both sides connect faster and celebrations are better planned.",
+    built: ["Two-sided marketplace", "Verified vendor profiles", "Transparent pricing & packages", "Event planning flow"],
+    laptopScreen: "/work/oio-mobile.webp",
+    slateScreen: "/work/oio-desktop.webp",
+    gallery: [
+      { src: "/work/oio-mobile.webp", alt: "OiO homepage: From Aso Ebi to Afterparty, all in one place.", w: 1200, h: 1764 },
+      { src: "/work/oio-desktop.webp", alt: "OiO vendors page: trusted by celebrants and vendors across Nigeria.", w: 1059, h: 1704 },
+      { src: "/work/oio-speakers.webp", alt: "OiO speaker and session cards in bold colour blocks.", w: 1896, h: 809 },
+    ],
+    accent: "#e8622c",
+    url: "https://oio.ng",
+  },
+  {
+    id: "footera",
+    name: "Footera",
+    industry: "Footwear & retail",
+    summary: "A website for a Lagos footwear brand known for quality and craftsmanship, built to carry the brand online.",
+    challenge:
+      "Footera was expanding online, but its existing presence did not communicate its commitment to quality and traditional craftsmanship.",
+    solution:
+      "A redesigned, responsive website that leads with craft and quality: the brand story, the products and how they are made, with an intuitive shopping experience.",
+    outcome: "More online traffic and a wider customer base, with a digital presence that finally reflects the brand's values and craftsmanship.",
+    built: ["Brand website", "Product catalogue", "Shopping experience", "Brand storytelling"],
+    laptopScreen: "/work/footera-mobile.webp",
+    slateScreen: "/work/footera-desktop.webp",
+    gallery: [
+      { src: "/work/footera-mobile.webp", alt: "Footera homepage: Let's upgrade your shoes now.", w: 1200, h: 1764 },
+      { src: "/work/footera-desktop.webp", alt: "Footera product listing and blog.", w: 1059, h: 1704 },
+    ],
+    accent: "#3fae8f",
+    url: "https://footera.ng",
+  },
+  {
+    id: "compassionate-heart",
+    name: "Compassionate Heart",
+    industry: "Nonprofit",
+    summary: "A new website for a nonprofit, built to tell its story, show its impact and make it easy to get involved.",
+    challenge:
+      "Compassionate Heart's outdated website did not communicate its mission, which made it hard to engage supporters and show the impact of its work in the community.",
+    solution:
+      "A new responsive website with intuitive navigation and categorised causes, designed around storytelling and the real impact of the organisation's work.",
+    outcome: "Better engagement: supporters understand the mission, see the impact and find ways to contribute, through donations and volunteering.",
+    built: ["Responsive website", "Categorised causes", "Impact storytelling", "Ways to get involved"],
+    laptopScreen: "/work/compassion-mobile.webp",
+    slateScreen: "/work/compassion-desktop.webp",
+    gallery: [
+      { src: "/work/compassion-mobile.webp", alt: "Compassionate Heart homepage: Care about people.", w: 1200, h: 1764 },
+      { src: "/work/compassion-desktop.webp", alt: "Compassionate Heart pages with causes and community photos.", w: 1103, h: 1775 },
+    ],
+    accent: "#d9822b",
+    url: "https://compassionateheart.org.ng",
+  },
+  {
+    id: "gadmos",
+    name: "Gadmos",
+    industry: "Security & facility services",
+    summary: "A modern website for Gadmos Security & Services Ltd that communicates its range of security services with the professionalism the business has.",
+    challenge:
+      "Gadmos's old website did not reflect its professionalism or explain its security services, and the dated design was holding back new client enquiries.",
+    solution:
+      "A modern, responsive website tailored to the brand that clearly lays out the range of services and leads with professionalism, trust and expertise.",
+    outcome: "Stronger engagement and lead generation, with more enquiries and new clients coming through the site.",
+    built: ["Brand website", "Service pages", "Enquiry flows", "Responsive design"],
+    laptopScreen: "/work/gadmos-mobile.webp",
+    slateScreen: "/work/gadmos-desktop.webp",
+    gallery: [
+      { src: "/work/gadmos-mobile.webp", alt: "Gadmos homepage: Cleaning service and complete security solutions.", w: 1200, h: 1764 },
+      { src: "/work/gadmos-desktop.webp", alt: "Gadmos service pages.", w: 1059, h: 1704 },
+    ],
+    accent: "#c4302b",
+    url: "https://gadmosservices.com/",
   },
 ];
 
@@ -286,7 +385,7 @@ export const workItems = [
     image: p.gallery[0].src,
     summary: p.summary,
   })),
-  ...labs.items.map((l) => ({
+  ...labs.items.filter((l) => !projects.some((p) => p.name.toLowerCase() === l.name.toLowerCase())).map((l) => ({
     slug: l.id,
     href: `/labs#${l.id}`,
     name: l.name,
@@ -317,14 +416,16 @@ export const renders: Record<string, string> = {
   prism: "/renders/prism.webp",
   oio: "/renders/oio.webp",
   idara: "/renders/idara.webp",
-  footera: "/renders/footera.webp",
+  footera: "/renders/footera-site.webp",
+  "compassionate-heart": "/renders/compassion.webp",
+  gadmos: "/renders/gadmos.webp",
 };
 
 /** Featured slides for the N reveal. Taglines are ours, not client claims. */
 export const featured = [
   { slug: "profix-desk", name: "ProFix Desk", line: "Repairs, sorted.", kind: "Client work · Repair businesses", image: "/renders/profix.webp", href: "/work/profix-desk" },
   { slug: "kike", name: "Kiké", line: "Heritage, online.", kind: "Client work · Fashion & e-commerce", image: "/renders/kike.webp", href: "/work/kike" },
-  { slug: "oio", name: "oio", line: "Every party, one place.", kind: "Labs · Events marketplace", image: "/renders/oio.webp", href: "/labs" },
+  { slug: "oio", name: "OiO", line: "Every party, one place.", kind: "Client work · Events marketplace", image: "/renders/oio.webp", href: "/work/oio" },
   { slug: "prism", name: "Prism", line: "Editing, without the edit suite.", kind: "Labs · AI image editing", image: "/renders/prism.webp", href: "/labs" },
 ];
 
