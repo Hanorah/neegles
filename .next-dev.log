@@ -1,0 +1,4105 @@
+▲ Next.js 16.4.6 (Turbopack)
+- Local:         http://localhost:3210
+- Network:       http://10.204.182.211:3210
+✓ Ready in 333ms
+✓ Running next.config.ts took 5.2s
+
+  We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+  The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+  	- include was updated to add '.next/dev/types/**/*.ts'
+
+- Experiments (use with caution):
+  · optimizePackageImports
+
+✓ Generated AGENTS.md for AI agents. Set `agentRules: false` in next.config to disable.
+○ Compiling / ...
+⨯ [next]/internal/font/google/inter_e8f3ebd2.module.css:34:8
+Error: Module not found: Can't resolve '@vercel/turbopack-next/internal/font/google/font'
+  [90m32 |[0m   font-weight: [35m100[0m [35m900[0m;
+  [90m33 |[0m   font-display: swap;
+[31m[1m>[0m [90m34 |[0m   src: url(@vercel/turbopack-next/internal/font/google/font?%[35m7[0m[33mB[0m%[35m22[0murl%[35m22[0m%[35m3[0m[33mA[0m%[35m22[0mhttps%[35m3[0m[33mA[0m%[35m2[0m[33mF[0m%[35m.[0m[33m..[0m
+  [90m   |[0m        [31m[1m^[0m
+  [90m35 |[0m   unicode-range: [33mU[0m+[35m0370[0m-[35m0377[0m, [33mU[0m+[35m037[0m[33mA[0m-[35m037[0m[33mF[0m, [33mU[0m+[35m0384[0m-[35m038[0m[33mA[0m, [33mU[0m+[35m038[0m[33mC[0m, [33mU[0m+[35m038E-03[0m[33mA1[0m, [33mU[0m+[35m03[0m[33mA3[0m-[35m03[0m[33mFF[0m;
+  [90m36 |[0m }
+  [90m37 |[0m [90m/* vietnamese */[0m
+
+Import map: Resolved by import map
+
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_e8f3ebd2.module.css
+    [next]/internal/font/google/inter_e8f3ebd2.js
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⚠ [next]/internal/font/google/6131cbbf5549afa2-s.woff2
+Warning: Error while requesting resource
+Connection timed out when requesting https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2
+
+
+ GET / 500 in 1281ms (next.js: 1090ms, application-code: 191ms)
+⚠ [next]/internal/font/google/6131cbbf5549afa2-s.woff2
+Warning: Error while requesting resource
+Connection timed out when requesting https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2
+
+
+[browser] Uncaught Error: [next]/internal/font/google/inter_e8f3ebd2.module.css:34:8
+Error: Module not found: Can't resolve '@vercel/turbopack-next/internal/font/google/font'
+  32 |   font-weight: 100 900;
+  33 |   font-display: swap;
+> 34 |   src: url(@vercel/turbopack-next/internal/font/google/font?%7B%22url%22%3A%22https%3A%2F%...
+     |        ^
+  35 |   unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+  36 | }
+  37 | /* vietnamese */
+
+Import map: Resolved by import map
+
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_e8f3ebd2.module.css
+    [next]/internal/font/google/inter_e8f3ebd2.js
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] [next]/internal/font/google/inter_e8f3ebd2.module.css:34:8
+Error: Module not found: Can't resolve '@vercel/turbopack-next/internal/font/google/font'
+  32 |   font-weight: 100 900;
+  33 |   font-display: swap;
+> 34 |   src: url(@vercel/turbopack-next/internal/font/google/font?%7B%22url%22%3A%22https%3A%2F%...
+     |        ^
+  35 |   unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+  36 | }
+  37 | /* vietnamese */
+
+Import map: Resolved by import map
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_e8f3ebd2.module.css
+    [next]/internal/font/google/inter_e8f3ebd2.js
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] [next]/internal/font/google/inter_e8f3ebd2.module.css:34:8
+Error: Module not found: Can't resolve '@vercel/turbopack-next/internal/font/google/font'
+  32 |   font-weight: 100 900;
+  33 |   font-display: swap;
+> 34 |   src: url(@vercel/turbopack-next/internal/font/google/font?%7B%22url%22%3A%22https%3A%2F%...
+     |        ^
+  35 |   unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+  36 | }
+  37 | /* vietnamese */
+
+Import map: Resolved by import map
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_e8f3ebd2.module.css
+    [next]/internal/font/google/inter_e8f3ebd2.js
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] [next]/internal/font/google/inter_e8f3ebd2.module.css:34:8
+Error: Module not found: Can't resolve '@vercel/turbopack-next/internal/font/google/font'
+  32 |   font-weight: 100 900;
+  33 |   font-display: swap;
+> 34 |   src: url(@vercel/turbopack-next/internal/font/google/font?%7B%22url%22%3A%22https%3A%2F%...
+     |        ^
+  35 |   unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+  36 | }
+  37 | /* vietnamese */
+
+Import map: Resolved by import map
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_e8f3ebd2.module.css
+    [next]/internal/font/google/inter_e8f3ebd2.js
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+⨯ [next]/internal/font/google/inter_e8f3ebd2.module.css:34:8
+Error: Module not found: Can't resolve '@vercel/turbopack-next/internal/font/google/font'
+  [90m32 |[0m   font-weight: [35m100[0m [35m900[0m;
+  [90m33 |[0m   font-display: swap;
+[31m[1m>[0m [90m34 |[0m   src: url(@vercel/turbopack-next/internal/font/google/font?%[35m7[0m[33mB[0m%[35m22[0murl%[35m22[0m%[35m3[0m[33mA[0m%[35m22[0mhttps%[35m3[0m[33mA[0m%[35m2[0m[33mF[0m%[35m.[0m[33m..[0m
+  [90m   |[0m        [31m[1m^[0m
+  [90m35 |[0m   unicode-range: [33mU[0m+[35m0370[0m-[35m0377[0m, [33mU[0m+[35m037[0m[33mA[0m-[35m037[0m[33mF[0m, [33mU[0m+[35m0384[0m-[35m038[0m[33mA[0m, [33mU[0m+[35m038[0m[33mC[0m, [33mU[0m+[35m038E-03[0m[33mA1[0m, [33mU[0m+[35m03[0m[33mA3[0m-[35m03[0m[33mFF[0m;
+  [90m36 |[0m }
+  [90m37 |[0m [90m/* vietnamese */[0m
+
+Import map: Resolved by import map
+
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_e8f3ebd2.module.css
+    [next]/internal/font/google/inter_e8f3ebd2.js
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⚠ [next]/internal/font/google/6131cbbf5549afa2-s.woff2
+Warning: Error while requesting resource
+Connection timed out when requesting https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2
+
+
+ GET / 500 in 21ms (next.js: 9ms, application-code: 12ms)
+⚠ [next]/internal/font/google/6131cbbf5549afa2-s.woff2
+Warning: Error while requesting resource
+Connection timed out when requesting https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2
+
+
+[browser] Uncaught Error: [next]/internal/font/google/inter_e8f3ebd2.module.css:34:8
+Error: Module not found: Can't resolve '@vercel/turbopack-next/internal/font/google/font'
+  32 |   font-weight: 100 900;
+  33 |   font-display: swap;
+> 34 |   src: url(@vercel/turbopack-next/internal/font/google/font?%7B%22url%22%3A%22https%3A%2F%...
+     |        ^
+  35 |   unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+  36 | }
+  37 | /* vietnamese */
+
+Import map: Resolved by import map
+
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_e8f3ebd2.module.css
+    [next]/internal/font/google/inter_e8f3ebd2.js
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] [next]/internal/font/google/inter_e8f3ebd2.module.css:34:8
+Error: Module not found: Can't resolve '@vercel/turbopack-next/internal/font/google/font'
+  32 |   font-weight: 100 900;
+  33 |   font-display: swap;
+> 34 |   src: url(@vercel/turbopack-next/internal/font/google/font?%7B%22url%22%3A%22https%3A%2F%...
+     |        ^
+  35 |   unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+  36 | }
+  37 | /* vietnamese */
+
+Import map: Resolved by import map
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_e8f3ebd2.module.css
+    [next]/internal/font/google/inter_e8f3ebd2.js
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] [next]/internal/font/google/inter_e8f3ebd2.module.css:34:8
+Error: Module not found: Can't resolve '@vercel/turbopack-next/internal/font/google/font'
+  32 |   font-weight: 100 900;
+  33 |   font-display: swap;
+> 34 |   src: url(@vercel/turbopack-next/internal/font/google/font?%7B%22url%22%3A%22https%3A%2F%...
+     |        ^
+  35 |   unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+  36 | }
+  37 | /* vietnamese */
+
+Import map: Resolved by import map
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_e8f3ebd2.module.css
+    [next]/internal/font/google/inter_e8f3ebd2.js
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] [next]/internal/font/google/inter_e8f3ebd2.module.css:34:8
+Error: Module not found: Can't resolve '@vercel/turbopack-next/internal/font/google/font'
+  32 |   font-weight: 100 900;
+  33 |   font-display: swap;
+> 34 |   src: url(@vercel/turbopack-next/internal/font/google/font?%7B%22url%22%3A%22https%3A%2F%...
+     |        ^
+  35 |   unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+  36 | }
+  37 | /* vietnamese */
+
+Import map: Resolved by import map
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_e8f3ebd2.module.css
+    [next]/internal/font/google/inter_e8f3ebd2.js
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] [next]/internal/font/google/inter_e8f3ebd2.module.css:34:8
+Error: Module not found: Can't resolve '@vercel/turbopack-next/internal/font/google/font'
+  32 |   font-weight: 100 900;
+  33 |   font-display: swap;
+> 34 |   src: url(@vercel/turbopack-next/internal/font/google/font?%7B%22url%22%3A%22https%3A%2F%...
+     |        ^
+  35 |   unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+  36 | }
+  37 | /* vietnamese */
+
+Import map: Resolved by import map
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_e8f3ebd2.module.css
+    [next]/internal/font/google/inter_e8f3ebd2.js
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+✓ Compiled in 68ms
+ GET / 200 in 452ms (next.js: 152ms, application-code: 300ms)
+ GET / 200 in 49ms (next.js: 1.9ms, application-code: 47ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+ GET / 200 in 50ms (next.js: 2ms, application-code: 48ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+✓ Compiled in 74ms
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\Admin\\Desktop\\updated-neegles-site\\node_modules\\.package-lock.json").
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+✓ Compiled in 98ms
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+  [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m4 |[0m
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  [90m1 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m2 |[0m [36mimport[0m [33mSmoothScroll[0m [36mfrom[0m [32m"@/components/SmoothScroll"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/hero/Hero"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m6 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+✓ Compiled in 160ms
+ GET / 200 in 154ms (next.js: 23ms, application-code: 131ms)
+ GET / 200 in 68ms (next.js: 3ms, application-code: 66ms)
+✓ Compiled in 439ms
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] THREE.WARNING: Multiple instances of Three.js being imported. (file://C:/Users/Admin/Desktop/updated-neegles-site/.next/dev/static/chunks/_204z9kwaw7kce._.js:945:228)
+[browser] Invalid scope (components/Process.tsx:30:20)
+[browser] Invalid scope (components/Process.tsx:30:20)
+✓ Compiled in 20ms
+✓ Compiled in 17ms
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:1:1
+Error: Module not found: Can't resolve '@/components/Nav'
+> 1 | import Nav from "@/components/Nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+  3 | import Hero from "@/components/hero/Hero";
+  4 |
+
+Import map: aliased to relative './components/Nav' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/hero/Hero'
+  1 | import Nav from "@/components/Nav";
+  2 | import SmoothScroll from "@/components/SmoothScroll";
+> 3 | import Hero from "@/components/hero/Hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './components/hero/Hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] THREE.WARNING: Multiple instances of Three.js being imported. (file://C:/Users/Admin/Desktop/updated-neegles-site/.next/dev/static/chunks/_204z9kwaw7kce._.js:945:228)
+[browser] Invalid scope (components/Process.tsx:30:20)
+[browser] Invalid scope (components/Process.tsx:30:20)
+ GET / 200 in 225ms (next.js: 2ms, application-code: 222ms)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="display_22...">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1348.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+ 
+[browser] Invalid scope (components/Process.tsx:30:20)
+[browser] Invalid scope (components/Process.tsx:30:20)
+✓ Compiled in 21ms
+ GET / 200 in 131ms (next.js: 4ms, application-code: 127ms)
+ GET / 200 in 69ms (next.js: 3ms, application-code: 65ms)
+ GET / 200 in 105ms (next.js: 2ms, application-code: 103ms)
+[browser] Invalid scope (components/Process.tsx:30:20)
+[browser] Invalid scope (components/Process.tsx:30:20)
+⨯ ./app/layout.tsx:5:1
+Error: Module not found: Can't resolve './dive.css'
+  [90m3 |[0m [36mimport[0m { company } [36mfrom[0m [32m"@/lib/content"[0m;
+  [90m4 |[0m [36mimport[0m [32m"./globals.css"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m [32m"./dive.css"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [90m// Self-hosted (Fontsource, OFL): no third-party font requests at runtime.[0m
+  [90m8 |[0m [36mconst[0m display = localFont({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/Dive'
+  [90m2 |[0m [36mimport[0m [33mMotion[0m [36mfrom[0m [32m"@/components/Motion"[0m;
+  [90m3 |[0m [36mimport[0m [33mHeader[0m [36mfrom[0m [32m"@/components/Header"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mDive[0m [36mfrom[0m [32m"@/components/Dive"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+  [90m6 |[0m [36mimport[0m [33mStatement[0m [36mfrom[0m [32m"@/components/Statement"[0m;
+  [90m7 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"@/components/Services"[0m;
+
+Import map: aliased to relative './components/Dive' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/Dive'
+  [90m2 |[0m [36mimport[0m [33mMotion[0m [36mfrom[0m [32m"@/components/Motion"[0m;
+  [90m3 |[0m [36mimport[0m [33mHeader[0m [36mfrom[0m [32m"@/components/Header"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mDive[0m [36mfrom[0m [32m"@/components/Dive"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+  [90m6 |[0m [36mimport[0m [33mStatement[0m [36mfrom[0m [32m"@/components/Statement"[0m;
+  [90m7 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"@/components/Services"[0m;
+
+Import map: aliased to relative './components/Dive' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:5:1
+Error: Module not found: Can't resolve './dive.css'
+  [90m3 |[0m [36mimport[0m { company } [36mfrom[0m [32m"@/lib/content"[0m;
+  [90m4 |[0m [36mimport[0m [32m"./globals.css"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m [32m"./dive.css"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [90m// Self-hosted (Fontsource, OFL): no third-party font requests at runtime.[0m
+  [90m8 |[0m [36mconst[0m display = localFont({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/Dive'
+  [90m2 |[0m [36mimport[0m [33mMotion[0m [36mfrom[0m [32m"@/components/Motion"[0m;
+  [90m3 |[0m [36mimport[0m [33mHeader[0m [36mfrom[0m [32m"@/components/Header"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mDive[0m [36mfrom[0m [32m"@/components/Dive"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+  [90m6 |[0m [36mimport[0m [33mStatement[0m [36mfrom[0m [32m"@/components/Statement"[0m;
+  [90m7 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"@/components/Services"[0m;
+
+Import map: aliased to relative './components/Dive' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/Dive'
+  [90m2 |[0m [36mimport[0m [33mMotion[0m [36mfrom[0m [32m"@/components/Motion"[0m;
+  [90m3 |[0m [36mimport[0m [33mHeader[0m [36mfrom[0m [32m"@/components/Header"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mDive[0m [36mfrom[0m [32m"@/components/Dive"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+  [90m6 |[0m [36mimport[0m [33mStatement[0m [36mfrom[0m [32m"@/components/Statement"[0m;
+  [90m7 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"@/components/Services"[0m;
+
+Import map: aliased to relative './components/Dive' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:5:1
+Error: Module not found: Can't resolve './dive.css'
+  [90m3 |[0m [36mimport[0m { company } [36mfrom[0m [32m"@/lib/content"[0m;
+  [90m4 |[0m [36mimport[0m [32m"./globals.css"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m [32m"./dive.css"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [90m// Self-hosted (Fontsource, OFL): no third-party font requests at runtime.[0m
+  [90m8 |[0m [36mconst[0m display = localFont({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/Dive'
+  [90m2 |[0m [36mimport[0m [33mMotion[0m [36mfrom[0m [32m"@/components/Motion"[0m;
+  [90m3 |[0m [36mimport[0m [33mHeader[0m [36mfrom[0m [32m"@/components/Header"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mDive[0m [36mfrom[0m [32m"@/components/Dive"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+  [90m6 |[0m [36mimport[0m [33mStatement[0m [36mfrom[0m [32m"@/components/Statement"[0m;
+  [90m7 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"@/components/Services"[0m;
+
+Import map: aliased to relative './components/Dive' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/Dive'
+  [90m2 |[0m [36mimport[0m [33mMotion[0m [36mfrom[0m [32m"@/components/Motion"[0m;
+  [90m3 |[0m [36mimport[0m [33mHeader[0m [36mfrom[0m [32m"@/components/Header"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mDive[0m [36mfrom[0m [32m"@/components/Dive"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+  [90m6 |[0m [36mimport[0m [33mStatement[0m [36mfrom[0m [32m"@/components/Statement"[0m;
+  [90m7 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"@/components/Services"[0m;
+
+Import map: aliased to relative './components/Dive' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:5:1
+Error: Module not found: Can't resolve './dive.css'
+  [90m3 |[0m [36mimport[0m { company } [36mfrom[0m [32m"@/lib/content"[0m;
+  [90m4 |[0m [36mimport[0m [32m"./globals.css"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m [32m"./dive.css"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [90m// Self-hosted (Fontsource, OFL): no third-party font requests at runtime.[0m
+  [90m8 |[0m [36mconst[0m display = localFont({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/Dive'
+  [90m2 |[0m [36mimport[0m [33mMotion[0m [36mfrom[0m [32m"@/components/Motion"[0m;
+  [90m3 |[0m [36mimport[0m [33mHeader[0m [36mfrom[0m [32m"@/components/Header"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mDive[0m [36mfrom[0m [32m"@/components/Dive"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+  [90m6 |[0m [36mimport[0m [33mStatement[0m [36mfrom[0m [32m"@/components/Statement"[0m;
+  [90m7 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"@/components/Services"[0m;
+
+Import map: aliased to relative './components/Dive' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/Dive'
+  [90m2 |[0m [36mimport[0m [33mMotion[0m [36mfrom[0m [32m"@/components/Motion"[0m;
+  [90m3 |[0m [36mimport[0m [33mHeader[0m [36mfrom[0m [32m"@/components/Header"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mDive[0m [36mfrom[0m [32m"@/components/Dive"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+  [90m6 |[0m [36mimport[0m [33mStatement[0m [36mfrom[0m [32m"@/components/Statement"[0m;
+  [90m7 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"@/components/Services"[0m;
+
+Import map: aliased to relative './components/Dive' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:5:1
+Error: Module not found: Can't resolve './dive.css'
+  [90m3 |[0m [36mimport[0m { company } [36mfrom[0m [32m"@/lib/content"[0m;
+  [90m4 |[0m [36mimport[0m [32m"./globals.css"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m [32m"./dive.css"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [90m// Self-hosted (Fontsource, OFL): no third-party font requests at runtime.[0m
+  [90m8 |[0m [36mconst[0m display = localFont({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/Dive'
+  [90m2 |[0m [36mimport[0m [33mMotion[0m [36mfrom[0m [32m"@/components/Motion"[0m;
+  [90m3 |[0m [36mimport[0m [33mHeader[0m [36mfrom[0m [32m"@/components/Header"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mDive[0m [36mfrom[0m [32m"@/components/Dive"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+  [90m6 |[0m [36mimport[0m [33mStatement[0m [36mfrom[0m [32m"@/components/Statement"[0m;
+  [90m7 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"@/components/Services"[0m;
+
+Import map: aliased to relative './components/Dive' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/Dive'
+  [90m2 |[0m [36mimport[0m [33mMotion[0m [36mfrom[0m [32m"@/components/Motion"[0m;
+  [90m3 |[0m [36mimport[0m [33mHeader[0m [36mfrom[0m [32m"@/components/Header"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mDive[0m [36mfrom[0m [32m"@/components/Dive"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+  [90m6 |[0m [36mimport[0m [33mStatement[0m [36mfrom[0m [32m"@/components/Statement"[0m;
+  [90m7 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"@/components/Services"[0m;
+
+Import map: aliased to relative './components/Dive' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:5:1
+Error: Module not found: Can't resolve './dive.css'
+  [90m3 |[0m [36mimport[0m { company } [36mfrom[0m [32m"@/lib/content"[0m;
+  [90m4 |[0m [36mimport[0m [32m"./globals.css"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m [32m"./dive.css"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [90m// Self-hosted (Fontsource, OFL): no third-party font requests at runtime.[0m
+  [90m8 |[0m [36mconst[0m display = localFont({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/Dive'
+  [90m2 |[0m [36mimport[0m [33mMotion[0m [36mfrom[0m [32m"@/components/Motion"[0m;
+  [90m3 |[0m [36mimport[0m [33mHeader[0m [36mfrom[0m [32m"@/components/Header"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mDive[0m [36mfrom[0m [32m"@/components/Dive"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+  [90m6 |[0m [36mimport[0m [33mStatement[0m [36mfrom[0m [32m"@/components/Statement"[0m;
+  [90m7 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"@/components/Services"[0m;
+
+Import map: aliased to relative './components/Dive' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/Dive'
+  [90m2 |[0m [36mimport[0m [33mMotion[0m [36mfrom[0m [32m"@/components/Motion"[0m;
+  [90m3 |[0m [36mimport[0m [33mHeader[0m [36mfrom[0m [32m"@/components/Header"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mDive[0m [36mfrom[0m [32m"@/components/Dive"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+  [90m6 |[0m [36mimport[0m [33mStatement[0m [36mfrom[0m [32m"@/components/Statement"[0m;
+  [90m7 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"@/components/Services"[0m;
+
+Import map: aliased to relative './components/Dive' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:5:1
+Error: Module not found: Can't resolve './dive.css'
+  [90m3 |[0m [36mimport[0m { company } [36mfrom[0m [32m"@/lib/content"[0m;
+  [90m4 |[0m [36mimport[0m [32m"./globals.css"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m [32m"./dive.css"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [90m// Self-hosted (Fontsource, OFL): no third-party font requests at runtime.[0m
+  [90m8 |[0m [36mconst[0m display = localFont({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/Dive'
+  [90m2 |[0m [36mimport[0m [33mMotion[0m [36mfrom[0m [32m"@/components/Motion"[0m;
+  [90m3 |[0m [36mimport[0m [33mHeader[0m [36mfrom[0m [32m"@/components/Header"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mDive[0m [36mfrom[0m [32m"@/components/Dive"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+  [90m6 |[0m [36mimport[0m [33mStatement[0m [36mfrom[0m [32m"@/components/Statement"[0m;
+  [90m7 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"@/components/Services"[0m;
+
+Import map: aliased to relative './components/Dive' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/Dive'
+  [90m2 |[0m [36mimport[0m [33mMotion[0m [36mfrom[0m [32m"@/components/Motion"[0m;
+  [90m3 |[0m [36mimport[0m [33mHeader[0m [36mfrom[0m [32m"@/components/Header"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m [33mDive[0m [36mfrom[0m [32m"@/components/Dive"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+  [90m6 |[0m [36mimport[0m [33mStatement[0m [36mfrom[0m [32m"@/components/Statement"[0m;
+  [90m7 |[0m [36mimport[0m [33mServices[0m [36mfrom[0m [32m"@/components/Services"[0m;
+
+Import map: aliased to relative './components/Dive' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+✓ Compiled in 34ms
+[browser] ./app/layout.tsx:5:1
+Error: Module not found: Can't resolve './dive.css'
+  3 | import { company } from "@/lib/content";
+  4 | import "./globals.css";
+> 5 | import "./dive.css";
+    | ^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Self-hosted (Fontsource, OFL): no third-party font requests at runtime.
+  8 | const display = localFont({
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/Dive'
+  2 | import Motion from "@/components/Motion";
+  3 | import Header from "@/components/Header";
+> 4 | import Dive from "@/components/Dive";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Hero from "@/components/Hero";
+  6 | import Statement from "@/components/Statement";
+  7 | import Services from "@/components/Services";
+
+Import map: aliased to relative './components/Dive' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+⨯ ./app/layout.tsx:5:1
+Error: Module not found: Can't resolve './dive.css'
+  [90m3 |[0m [36mimport[0m { company } [36mfrom[0m [32m"@/lib/content"[0m;
+  [90m4 |[0m [36mimport[0m [32m"./globals.css"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m [32m"./dive.css"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [90m// Self-hosted (Fontsource, OFL): no third-party font requests at runtime.[0m
+  [90m8 |[0m [36mconst[0m display = localFont({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:5:1
+Error: Module not found: Can't resolve './dive.css'
+  [90m3 |[0m [36mimport[0m { company } [36mfrom[0m [32m"@/lib/content"[0m;
+  [90m4 |[0m [36mimport[0m [32m"./globals.css"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m [32m"./dive.css"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [90m// Self-hosted (Fontsource, OFL): no third-party font requests at runtime.[0m
+  [90m8 |[0m [36mconst[0m display = localFont({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:5:1
+Error: Module not found: Can't resolve './dive.css'
+  [90m3 |[0m [36mimport[0m { company } [36mfrom[0m [32m"@/lib/content"[0m;
+  [90m4 |[0m [36mimport[0m [32m"./globals.css"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m [32m"./dive.css"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [90m// Self-hosted (Fontsource, OFL): no third-party font requests at runtime.[0m
+  [90m8 |[0m [36mconst[0m display = localFont({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:5:1
+Error: Module not found: Can't resolve './dive.css'
+  [90m3 |[0m [36mimport[0m { company } [36mfrom[0m [32m"@/lib/content"[0m;
+  [90m4 |[0m [36mimport[0m [32m"./globals.css"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m [32m"./dive.css"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [90m// Self-hosted (Fontsource, OFL): no third-party font requests at runtime.[0m
+  [90m8 |[0m [36mconst[0m display = localFont({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:5:1
+Error: Module not found: Can't resolve './dive.css'
+  [90m3 |[0m [36mimport[0m { company } [36mfrom[0m [32m"@/lib/content"[0m;
+  [90m4 |[0m [36mimport[0m [32m"./globals.css"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m [32m"./dive.css"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [90m// Self-hosted (Fontsource, OFL): no third-party font requests at runtime.[0m
+  [90m8 |[0m [36mconst[0m display = localFont({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:5:1
+Error: Module not found: Can't resolve './dive.css'
+  [90m3 |[0m [36mimport[0m { company } [36mfrom[0m [32m"@/lib/content"[0m;
+  [90m4 |[0m [36mimport[0m [32m"./globals.css"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m [32m"./dive.css"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [90m// Self-hosted (Fontsource, OFL): no third-party font requests at runtime.[0m
+  [90m8 |[0m [36mconst[0m display = localFont({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/layout.tsx:5:1
+Error: Module not found: Can't resolve './dive.css'
+  [90m3 |[0m [36mimport[0m { company } [36mfrom[0m [32m"@/lib/content"[0m;
+  [90m4 |[0m [36mimport[0m [32m"./globals.css"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m [32m"./dive.css"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [90m// Self-hosted (Fontsource, OFL): no third-party font requests at runtime.[0m
+  [90m8 |[0m [36mconst[0m display = localFont({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+✓ Compiled in 62ms
+[browser] ./app/layout.tsx:5:1
+Error: Module not found: Can't resolve './dive.css'
+  3 | import { company } from "@/lib/content";
+  4 | import "./globals.css";
+> 5 | import "./dive.css";
+    | ^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Self-hosted (Fontsource, OFL): no third-party font requests at runtime.
+  8 | const display = localFont({
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+   6 | import { useGSAP } from "@gsap/react";
+   7 | import { capabilities } from "@/lib/content";
+>  8 | import manifest from "@/lib/dive-manifest.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | gsap.registerPlugin(ScrollTrigger, useGSAP);
+  11 |
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/layout.tsx:5:1
+Error: Module not found: Can't resolve './dive.css'
+  3 | import { company } from "@/lib/content";
+  4 | import "./globals.css";
+> 5 | import "./dive.css";
+    | ^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Self-hosted (Fontsource, OFL): no third-party font requests at runtime.
+  8 | const display = localFont({
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+   6 | import { useGSAP } from "@gsap/react";
+   7 | import { capabilities } from "@/lib/content";
+>  8 | import manifest from "@/lib/dive-manifest.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | gsap.registerPlugin(ScrollTrigger, useGSAP);
+  11 |
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+  [90m 6 |[0m [36mimport[0m { useGSAP } [36mfrom[0m [32m"@gsap/react"[0m;
+  [90m 7 |[0m [36mimport[0m { capabilities } [36mfrom[0m [32m"@/lib/content"[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m manifest [36mfrom[0m [32m"@/lib/dive-manifest.json"[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m gsap.registerPlugin([33mScrollTrigger[0m, useGSAP);
+  [90m11 |[0m
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+✓ Compiled in 27ms
+[browser] ./components/Dive.tsx:8:1
+Error: Module not found: Can't resolve '@/lib/dive-manifest.json'
+   6 | import { useGSAP } from "@gsap/react";
+   7 | import { capabilities } from "@/lib/content";
+>  8 | import manifest from "@/lib/dive-manifest.json";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | gsap.registerPlugin(ScrollTrigger, useGSAP);
+  11 |
+
+Import map: aliased to relative './lib/dive-manifest.json' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/Dive.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+✓ Compiled in 25ms
+ GET / 200 in 66ms (next.js: 9ms, application-code: 57ms)
+[browser] Invalid scope (components/Process.tsx:30:20)
+[browser] Invalid scope (components/FitText.tsx:32:93)
+ GET / 200 in 138ms (next.js: 1.6ms, application-code: 137ms)
+[browser] Invalid scope (components/Process.tsx:30:20)
+[browser] Invalid scope (components/Process.tsx:30:20)
