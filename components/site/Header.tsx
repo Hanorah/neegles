@@ -50,13 +50,14 @@ export default function Header() {
 
   // full-screen black menu: columns drop from the top to open, then pull back up to close
   const tl = useRef<gsap.core.Timeline | null>(null);
-  const [shown, setShown] = useState(false);
-  useEffect(() => {
-    if (open) setShown(true);
-  }, [open]);
+  const first = useRef(true);
   useEffect(() => {
     const el = menu.current;
-    if (!el || !shown) return;
+    if (!el) return;
+    if (first.current) {
+      first.current = false;
+      return;
+    }
     const cols = el.querySelectorAll(".menu-col");
     const links = el.querySelectorAll(".menu-link .menu-txt");
     const bits = el.querySelectorAll(".menu-fade");
@@ -66,23 +67,23 @@ export default function Header() {
       window.__lenis?.stop();
       tl.current = gsap
         .timeline()
-        .set(el, { visibility: "visible" })
+        .set(el, { visibility: "visible", pointerEvents: "auto" })
         .fromTo(cols, { scaleY: 0, transformOrigin: "50% 0%" }, { scaleY: 1, duration: 0.75, ease: "expo.inOut", stagger: { each: 0.05, from: "start" } })
         .fromTo(links, { yPercent: 110 }, { yPercent: 0, duration: 0.9, ease: "expo.out", stagger: 0.05 }, 0.45)
         .fromTo(bits, { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.7, ease: "expo.out", stagger: 0.04 }, 0.6);
     } else {
       window.__lenis?.start();
       tl.current = gsap
-        .timeline({ onComplete: () => setShown(false) })
+        .timeline()
         .to(links, { yPercent: -110, duration: 0.45, ease: "power3.in", stagger: 0.025 })
         .to(bits, { opacity: 0, duration: 0.3 }, 0)
         .to(cols, { scaleY: 0, transformOrigin: "50% 0%", duration: 0.7, ease: "expo.inOut", stagger: { each: 0.05, from: "end" } }, 0.25)
-        .set(el, { visibility: "hidden" });
+        .set(el, { visibility: "hidden", pointerEvents: "none" });
     }
     const esc = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
     window.addEventListener("keydown", esc);
     return () => window.removeEventListener("keydown", esc);
-  }, [open, shown]);
+  }, [open]);
   const [peek, setPeek] = useState(0);
 
   const isOn = (href: string) => path === href || path.startsWith(href + "/");
@@ -107,7 +108,7 @@ export default function Header() {
         </TLink>
       </header>
 
-      <div id="menu" ref={menu} className={`menu ${shown ? "is-shown" : ""}`} role="dialog" aria-modal="true" aria-label="Menu" aria-hidden={!open}>
+      <div id="menu" ref={menu} className="menu" role="dialog" aria-modal="true" aria-label="Menu" aria-hidden={!open}>
         <div className="menu-cols" aria-hidden="true">
           {Array.from({ length: 8 }).map((_, k) => (
             <i key={k} className="menu-col" />
@@ -151,7 +152,7 @@ export default function Header() {
           <div className="menu-peek menu-fade" aria-hidden="true">
             {MENU.map((p, i) => (
               <span key={p.href} className={`menu-peek-img ${peek === i ? "is-on" : ""}`}>
-                <Image src={p.img} alt="" fill sizes="(max-width: 900px) 1px, 30vw" style={{ objectFit: "cover" }} />
+                <Image src={p.img} alt="" fill sizes="(max-width: 900px) 1px, 30vw" loading="eager" decoding="async" style={{ objectFit: "cover" }} />
               </span>
             ))}
             <p className="menu-peek-cap label">{MENU[peek].note}</p>
