@@ -142,16 +142,29 @@ export default function Thread() {
     };
 
     build();
+    // rebuilding the path is expensive: only when the page really changed size, and once it has settled
+    let lastH = page.scrollHeight;
+    let lastW = page.clientWidth;
+    let rt = 0;
     const ro = new ResizeObserver(() => {
-      cancelAnimationFrame(raf);
-      build();
-      raf = requestAnimationFrame(tick);
+      const h = page.scrollHeight;
+      const w = page.clientWidth;
+      if (Math.abs(h - lastH) < 40 && w === lastW) return;
+      lastH = h;
+      lastW = w;
+      clearTimeout(rt);
+      rt = window.setTimeout(() => {
+        cancelAnimationFrame(raf);
+        build();
+        raf = requestAnimationFrame(tick);
+      }, 250);
     });
     ro.observe(page);
     raf = requestAnimationFrame(tick);
 
     return () => {
       ro.disconnect();
+      clearTimeout(rt);
       cancelAnimationFrame(raf);
     };
   }, []);
