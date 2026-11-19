@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { gsap } from "gsap";
 
 type Pt = { x: number; y: number };
 
@@ -41,28 +40,30 @@ function loopAround(a: Pt, b: Pt, r: number): Pt[] {
  * a paper plane rides the tip, and each section's checkpoint lights up as the plane passes it.
  */
 export default function Thread() {
-  const svg = useRef<SVGSVGElement>(null);
+  const wrap = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    const el = svg.current!;
-    const page = el.parentElement as HTMLElement;
+    const box = wrap.current!;
+    const el = box.querySelector<SVGSVGElement>(".thread-svg")!;
+    const page = box.parentElement as HTMLElement;
     const dots = el.querySelector<SVGPathElement>(".thread-dots")!;
-    const mask = el.querySelector<SVGPathElement>(".thread-mask")!;
-    const plane = el.querySelector<SVGGElement>(".thread-plane")!;
+    const plane = box.querySelector<HTMLElement>(".thread-plane")!;
     const marks = el.querySelector<SVGGElement>(".thread-marks")!;
+    let H = 1;
     let total = 1;
     let samples: { l: number; x: number; y: number }[] = [];
-    let checkpoints: { l: number; node: SVGCircleElement }[] = [];
+    let checkpoints: { l: number; node: SVGCircleElement; on?: boolean }[] = [];
     let raf = 0;
     let shown = -1;
     const cur = { l: 0 };
 
     const build = () => {
       const W = page.clientWidth;
-      const H = page.scrollHeight;
+      H = page.scrollHeight;
       el.setAttribute("viewBox", `0 0 ${W} ${H}`);
       el.style.height = H + "px";
+      box.style.height = H + "px";
       const secs = Array.from(page.querySelectorAll<HTMLElement>(":scope > main > section, :scope > main > div > section, :scope > footer, :scope > .site-foot"));
       const pts: Pt[] = [{ x: W * 0.62, y: -20 }];
       const cps: Pt[] = [];
@@ -82,7 +83,6 @@ export default function Thread() {
       pts.push({ x: W * 0.5, y: H - 40 });
       const d = curve(pts);
       dots.setAttribute("d", d);
-      mask.setAttribute("d", d);
       total = dots.getTotalLength();
       samples = [];
       const N = Math.max(200, Math.round(total / 12));
@@ -104,7 +104,6 @@ export default function Thread() {
         marks.appendChild(c);
         return { l: best.l, node: c };
       });
-      mask.style.strokeDasharray = `${total} ${total}`;
       shown = -1;
     };
 
@@ -127,12 +126,19 @@ export default function Thread() {
       cur.l += (target - cur.l) * 0.12;
       if (Math.abs(cur.l - shown) < 0.3) return;
       shown = cur.l;
-      mask.style.strokeDashoffset = String(total - cur.l);
       const p = dots.getPointAtLength(cur.l);
       const q = dots.getPointAtLength(Math.min(total, cur.l + 6));
       const ang = (Math.atan2(q.y - p.y, q.x - p.x) * 180) / Math.PI;
-      plane.setAttribute("transform", `translate(${p.x.toFixed(1)} ${p.y.toFixed(1)}) rotate(${ang.toFixed(1)})`);
-      for (const c of checkpoints) c.node.classList.toggle("is-on", cur.l >= c.l - 2);
+      // reveal by clipping the cached layer (no repaint of the long path), move the plane on the compositor
+      el.style.clipPath = `inset(0 0 ${Math.max(0, H - p.y - 6).toFixed(0)}px 0)`;
+      plane.style.transform = `translate3d(${p.x.toFixed(1)}px, ${p.y.toFixed(1)}px, 0) rotate(${ang.toFixed(1)}deg)`;
+      for (const c of checkpoints) {
+        const on = cur.l >= c.l - 2;
+        if (c.on !== on) {
+          c.on = on;
+          c.node.classList.toggle("is-on", on);
+        }
+      }
     };
 
     build();
@@ -143,33 +149,27 @@ export default function Thread() {
     });
     ro.observe(page);
     raf = requestAnimationFrame(tick);
-    // the plane bobs a little even when the page is still
-    const bob = gsap.to(plane.querySelector(".plane-body"), { y: -3, rotate: -4, duration: 1.4, yoyo: true, repeat: -1, ease: "sine.inOut" });
 
     return () => {
       ro.disconnect();
       cancelAnimationFrame(raf);
-      bob.kill();
     };
   }, []);
 
   return (
-    <svg ref={svg} className="thread" aria-hidden="true" preserveAspectRatio="none">
-      <defs>
-        <mask id="thread-reveal" maskUnits="userSpaceOnUse">
-          <path className="thread-mask" fill="none" stroke="#fff" strokeWidth="10" strokeLinecap="round" />
-        </mask>
-      </defs>
-      <path className="thread-dots" fill="none" mask="url(#thread-reveal)" />
-      <g className="thread-marks" />
-      <g className="thread-plane">
-        <g className="plane-body">
+    <div ref={wrap} className="thread" aria-hidden="true">
+      <svg className="thread-svg" preserveAspectRatio="none">
+        <path className="thread-dots" fill="none" />
+        <g className="thread-marks" />
+      </svg>
+      <div className="thread-plane">
+        <svg viewBox="-16 -16 32 32" className="plane-body">
           {/* paper plane, nose along +x */}
           <path d="M14 0 L-10 -9 L-5 0 L-10 9 Z" className="plane-wing" />
           <path d="M14 0 L-5 0 L-8 5 Z" className="plane-fold" />
           <path d="M-5 0 L14 0" className="plane-crease" />
-        </g>
-      </g>
-    </svg>
+        </svg>
+      </div>
+    </div>
   );
 }

@@ -23,7 +23,6 @@ export default function WhyStack({ label = "(04) Why Neegles" }: { label?: strin
             gsap.to(c.querySelector(".ws-in"), {
               scale: 0.9,
               opacity: 0.35,
-              filter: "blur(3px)",
               ease: "none",
               scrollTrigger: { trigger: next, start: "top bottom", end: "top 14%", scrub: true },
             });

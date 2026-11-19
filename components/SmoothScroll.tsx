@@ -19,7 +19,7 @@ export default function SmoothScroll() {
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduce) return;
 
-    const lenis = new Lenis({ duration: 1.15, smoothWheel: true, wheelMultiplier: 0.9 });
+    const lenis = new Lenis({ lerp: 0.14, smoothWheel: true, wheelMultiplier: 1.15, touchMultiplier: 1.6 });
     window.__lenis = lenis;
     lenis.on("scroll", ScrollTrigger.update);
     const tick = (time: number) => lenis.raf(time * 1000);

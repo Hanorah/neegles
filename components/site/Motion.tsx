@@ -119,7 +119,7 @@ export default function Motion() {
       // headings come into focus as they reach the top (blur sticky feel)
       page.querySelectorAll<HTMLElement>(".h-xl, .phero-title").forEach((el) => {
         if (el.closest(".wk-stage, [data-noblur]")) return;
-        gsap.to(el, { filter: "blur(6px)", opacity: 0.5, ease: "none", scrollTrigger: { trigger: el, start: "top 12%", end: "bottom -20%", scrub: true } });
+        gsap.to(el, { opacity: 0.45, ease: "none", scrollTrigger: { trigger: el, start: "top 12%", end: "bottom -20%", scrub: true } });
       });
 
       page.querySelectorAll<HTMLElement>("[data-fade]").forEach((el) => {
@@ -194,9 +194,12 @@ export default function Motion() {
       const setters = leaners.map((el) => gsap.quickTo(el, "skewY", { duration: 0.5, ease: "power3" }));
       let skew = 0;
       const st = ScrollTrigger.create({ onUpdate: (s) => (skew = gsap.utils.clamp(-5, 5, s.getVelocity() / -400)) });
+      let applied = 0;
       const decay = () => {
         skew *= 0.88;
         if (Math.abs(skew) < 0.01) skew = 0;
+        if (skew === applied) return; // nothing to do while the page is still
+        applied = skew;
         setters.forEach((s) => s(skew));
       };
       gsap.ticker.add(decay);
